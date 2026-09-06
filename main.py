@@ -102,7 +102,7 @@ async def mesai_baslat(interaction: discord.Interaction):
     
     await interaction.response.send_message(embed=embed_user)
 
-    log_channel = bot.get_channel(LOG_CHANNEL_ID)
+    log_channel = bot.get_channel(1544404573664313436)
     if log_channel:
         embed_log = discord.Embed(
             title="📥 MESAİ GİRİŞ KAYDI",
