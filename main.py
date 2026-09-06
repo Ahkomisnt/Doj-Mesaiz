@@ -207,7 +207,7 @@ async def mesai_paneli(interaction: discord.Interaction):
             "🔴 **Mesai Bitir:** Görevi sonlandırmak ve sürenizi kaydetmek için tıklayın.\n\n"
             "*İyi çalışmalar dileriz.*"
         ),
-        color=discord.Color.dark_navy()
+        color=discord.Color.from_str("#1B263B")
     )
     # Türk Bayraklı & DOJ Görselli Görsel Kart
     embed.set_thumbnail(url="https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg")
